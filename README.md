@@ -35,7 +35,7 @@ El módulo a realizar es el de gestión de tareas.
 
 Para este módulo lo voy a realizar siguiendo el patrón por excelencia y ese patrón es el patrón modelo/vista/controlador.
 
-Para el modelo he pensado en utilizar una tecnología nueva para mí y esa tecnología es [mongoDB](https://www.mongodb.org/)
+Para el modelo he pensado en utilizar una tecnología nueva para mí y esa tecnología es [voltDB](https://voltdb.com/) que utiliza accesos en tiempo real.
 
 Para la vista vamos a utilizar [JADE](http://jade-lang.com/) el cuál podemos generar  los templates de forma rápida y eficaz.
 
