@@ -44,7 +44,7 @@ Todo esto lo voy a controlar con un maravilloso Framework para nodejs llamado [E
 
 Con toda la estructura ya preparada del módulo voy a seguir un control de versiones como lo hemos hecho hasta ahora como es el caso de github y como vamos  a seguir una metodología de desarrollo continuo como es **DevOps**; esto implica que el desarrollo principal del modulo del proyecto debe ser una desarrollo basado en pruebas, por lo que desarrollaremos pruebas unitarias para cada una de las funcionalidades de la aplicación, pero también basándonos en el funcionamiento de dichas pruebas incorporar un sistema de integración continua que verifique a cada cambio que la estabilidad del programa sigue siendo la que debe ser y que no se han introducido errores que derivarían en problemas durante la ejecución de la aplicación.
 
-Las pruebas unitarias se pueden realizar con **[PHPUNIT](https://github.com/sebastianbergmann/phpunit)** y la integración continua usaremos **[Travis CI](https://github.com/travis-ci/travis-ci)**.
+Las pruebas unitarias se pueden realizar con **[MOCHA](https://mochajs.org/)** y la integración continua usaremos **[FLIGHTPLAN](https://www.npmjs.com/package/flightplan)**.
 
 Según vayamos consiguiendo que la aplicación sea funcional, solo quedará desplegarla en un PaaS como puede ser Azure (aprovechando que tenemos acceso a cuentas durante 6 meses), pero antes de desplegar la aplicación en el servidor tendremos que provisionarlo con todos los recursos software necesarios. 
 
