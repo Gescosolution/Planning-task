@@ -1,0 +1,21 @@
+{
+  "name": "Planning-task",
+  "version": "0.0.0",
+  "description": "Planificación de tareas de los distintos miembros del equipo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gescosolution/Planning-task.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Gescosolution/Planning-task/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
