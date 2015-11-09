@@ -1,21 +1,29 @@
 {
-  "name": "Planning-task",
-  "version": "0.0.0",
-  "description": "Planificación de tareas de los distintos miembros del equipo.",
-  "main": "index.js",
+  "name": "planning-task",
+  "author": "Roberto Morcillo Jiménez <robermorji@gmail.com> (https://github.com/robermorji/)",
+  "version": "0.0.1",
+  "private": true,
+   "repository": {
+    "url": "git@github.com:robermorji/CalificaEmpresas.git"
+  },
+  "main": "./app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Gescosolution/Planning-task.git"
-  },
-  "author": "",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/Gescosolution/Planning-task/issues"
+    "start": "node ./bin/www",
+     "test": "mocha"
   },
   "dependencies": {
-    "express": "~4.13.3"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+ 
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "mongodb": "^2.0.48",
+    "mongoose": "^4.2.4"
   }
 }
