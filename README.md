@@ -57,6 +57,9 @@ Con  relación a la asignatura  este submodulo abarca todos los aspectos de la a
 
 ¡Qué la fuerza nos acompañe! ;)
 
+#Segundo hito de la práctica
+En este segundo hito hemos integrado los test con mocha y hemos hecho integración continua con travis.
+
 
 
 
