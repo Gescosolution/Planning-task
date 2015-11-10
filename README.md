@@ -58,7 +58,26 @@ Con  relación a la asignatura  este submodulo abarca todos los aspectos de la a
 ¡Qué la fuerza nos acompañe! ;)
 
 #Segundo hito de la práctica
-En este segundo hito hemos integrado los test con mocha y hemos hecho integración continua con travis.
+[![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=geoLocal%2Fmaster)](https://travis-ci.org/robermorji/Planning-task)
+En este segundo hito hemos empezado por realizar primero los test antes que implementar la aplicación, estamos siguiendo esta práctica debido 
+a que es la ue debe de llevar a cabo primeramente un buen programador:
+1.- Realizar los test
+2.- Comprobar que han pasado los test
+3.- Integración continua con travis
+4.- Implementación
+
+Hemos integrado los test con mocha y hemos hecho integración continua con travis, como vemos en el badget hemos conseguido 
+pasar la integracion continua de Travis-CI  en los distintas versiones de nodejs.
+
+Para poder instalar la aplicación tan solo necesitamos las siguientes ordenes
+	npm install 
+	npm start
+
+Si queremos pasar los test
+	npm test
+	
+En siguientes practicas comenzaremos a realizar la implementación a partir de los test que hemos implementado ahora.
+
 
 
 
