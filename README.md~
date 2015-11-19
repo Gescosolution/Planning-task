@@ -59,8 +59,6 @@ Con  relación a la asignatura  este submodulo abarca todos los aspectos de la a
 
 # Segundo hito de la práctica
 [![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
-
-
 En este segundo hito hemos empezado por realizar primero los test antes que implementar la aplicación, estamos siguiendo esta práctica debido 
 a que es la ue debe de llevar a cabo primeramente un buen programador:
 	
