@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
+
+
 # Planning-task
 Submodulo software del proyecto publicado bajo la licencia de GNU GENERAL PUBLIC LICENSE Version 2 llamado Gesco para la gestión de proyectos.
 
@@ -58,8 +61,6 @@ Con  relación a la asignatura  este submodulo abarca todos los aspectos de la a
 ¡Qué la fuerza nos acompañe! ;)
 
 # Segundo hito de la práctica
-[![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
-
 
 En este segundo hito hemos empezado por realizar primero los test antes que implementar la aplicación, estamos siguiendo esta práctica debido 
 a que es la ue debe de llevar a cabo primeramente un buen programador:
