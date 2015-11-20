@@ -10,7 +10,6 @@ El proyecto Gesco participa en el Certamen de Proyectos Libres de la Universidad
  - Roberto Morcillo Jiménez: [@robermorji](https://github.com/robermorji)
 
 # Enlaces
-- [Web del submodulo] ()
 - [Web de la aplicación](http://gescosolution.github.io/Gesco/)
 - [Twitter](https://twitter.com/gescosolutionCC) 
 
@@ -66,8 +65,11 @@ En este segundo hito hemos empezado por realizar primero los test antes que impl
 a que es la ue debe de llevar a cabo primeramente un buen programador:
 	
 1.- Realizar los test
+
 2.- Comprobar que han pasado los test
+
 3.- Integración continua con travis
+
 4.- Implementación
 
 Hemos integrado los test con mocha y hemos hecho integración continua con travis, como vemos en el badget hemos conseguido 
