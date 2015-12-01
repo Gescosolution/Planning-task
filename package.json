@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "private": true,
    "repository": {
-    "url": "git@github.com:robermorji/CalificaEmpresas.git"
+    "url": "git@github.com:robermorji/Planning-Task.git"
   },
   "main": "./app.js",
   "scripts": {
     "test":"mocha",
-    "start": "node app"
+    "start": "node ./bin/www"
     
   },
   "dependencies": {
@@ -20,13 +20,15 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
-    "should":"7.1.1"
+    "should":"7.1.1",
+     "mongodb": "^2.0.48",
+     "mongoose": "^4.2.4"
   },
  
   "devDependencies": {
     "mocha": "^2.3.3",
-    "mongodb": "^2.0.48",
-    "mongoose": "^4.2.4",
+   
+    
     "supertest": "^1.1.0"
   }
 }

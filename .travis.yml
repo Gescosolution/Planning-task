@@ -1,8 +1,14 @@
-# language setting
 language: node_js
-
-# version numbers, testing against two versions of node
 node_js:
-  - "0.12"
-  - "0.11"
-  - "0.10"
+- '0.12'
+- '0.11'
+- '0.10'
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: gs+BySvPV/UmugaQph0ut7MgSxVuNDEDkH1DN2Ov0jsAYZBfkNP74RjUj+jlLdTV91mO/N3zoN0xQ+32UHxW6Fsn9OdHkTrBV+M8CJ1uSw8C8unKMc+ggX7ds+79cTSsUglYY6a4qo95an00JvePGPlRbfgL/nHy6kPxfyfH+5oesqA+DyD4moDi7e5yOjkeK8a+9ucqDDJ8d0lYuZCEwAvRpP/c7oE5lrha8uAo38KWOU11G3386uV0UH78L+Nr928oIOj/3HLxgJMJ1n1TMhmYgd+2Rp+QHHiwalWv9/vAAFLXAHqlFC1diD4jiGbVYTYlL24tewy50R3gj3BTaxdJjPFYlz7McgryNgwY9T1xhgMInkzFp7pduQptZlIBIOZLkphkRaBjvmZV8JSnjWYHHZFmINxdoxLy5a65rxQVfj/TX9qfW51eZ+okeElXF2rmiMmLsqiPstXkikUVllYAmuHUbgj9omGKhIdI/I6xA8he89iCswhoBQetFs0GHt+q3U4JD5iFzo+33+ECfj/XwOfrDYoJbAICJpVnUs6M4oAIQgD8jAYdiV7Y2pj26k4Phd+owtPBF1SnPPotHOxODV07LhuHcvUJYvSIEYXGv3rYUeNlq0AdjTf1PK5Q4Ft8SH0lWpng/hAPxVAoUfqTvEB9vEmtRbTF9wyHqTc=
+  app: planningtask
+  on:
+    repo: robermorji/Planning-task

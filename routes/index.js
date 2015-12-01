@@ -8,6 +8,7 @@ var mongo = require("mongodb").MongoClient;
 var proyectos = new Array();
 var tareas = new Array();
 var subtareas = new Array();
+
 /* GET home page. */
 app.set('../views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
