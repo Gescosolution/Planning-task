@@ -14,3 +14,4 @@ deploy:
   provider: heroku
   api_key:
     secure: "c690df36-77c0-49ff-aad7-f57fb9faf0bf"
+    app: planningtask
