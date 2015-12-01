@@ -8,8 +8,9 @@
   },
   "main": "./app.js",
   "scripts": {
-    "start": "node ./bin/www",
-     "test": "mocha"
+    "test":"mocha",
+    "start": "node app"
+    
   },
   "dependencies": {
     "body-parser": "~1.14.1",
