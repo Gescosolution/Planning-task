@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
+![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)
 
 
 # Planning-task
