@@ -99,7 +99,7 @@ describe('Pruebas de conexión', function(){
 	});
   
 });
-/*
+
 describe('Pruebas de insercion elementos', function(){
     it("Crear nuevo proyecto", function(done,next){
     request(app)
@@ -123,7 +123,7 @@ describe('Pruebas de insercion elementos', function(){
 	});
  
 });
-
+/*
 describe('Pruebas de listar elementos', function(){
     it("Listar proyectos", function(done,next){
     request(app)
