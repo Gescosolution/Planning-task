@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
-
+[ ![Codeship Status for robermorji/Planning-task](https://codeship.com/projects/03b7c580-7a58-0133-85ee-72bb2b768401/status?branch=master)](https://codeship.com/projects/118990)
+![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
 # Planning-task
 Submodulo software del proyecto publicado bajo la licencia de GNU GENERAL PUBLIC LICENSE Version 2 llamado Gesco para la gestión de proyectos.
@@ -59,9 +60,8 @@ Con  relación a la asignatura  este submodulo abarca todos los aspectos de la a
 
 ¡Qué la fuerza nos acompañe! ;)
 
-# Segundo hito de la práctica
 
-En este segundo hito hemos empezado por realizar primero los test antes que implementar la aplicación, estamos siguiendo esta práctica debido 
+Hemos empezado por realizar primero los test antes que implementar la aplicación, estamos siguiendo esta práctica debido 
 a que es la ue debe de llevar a cabo primeramente un buen programador:
 	
 1.- Realizar los test
@@ -82,11 +82,61 @@ Para poder instalar la aplicación tan solo necesitamos las siguientes ordenes
 Si queremos pasar los test
 		npm test
 	
-En siguientes practicas comenzaremos a realizar la implementación a partir de los test que hemos implementado ahora.
+#Integración continua con Travis
 
-Integración Heroku nueva, prueba de README heroku, pruebabababkewjklsfkjsdhfkjdh
+En lo que se refiere a integración continua hemos seleccionado  la aplicación web por autonomasia como es Travis. Lo hemos eleguido por la facilidad que nos dá a la hora de enlazarla con nuestra aplicación ya que nada más haciendo un push él automaticamente nos sube el commit y nos pasa los test para que no tengamos problema a la de conseguir ver que todo va integrandose de forma correcta.
+
+#Despliegue con Heroku
+
+Para el despliegue de nuestra aplicación en la nube hemos eleguido Heroku, debido a que se compenetra muy bien con travis pero para ello necesitamos realizar una serie de pasos que a continuación vamos a explicar:
+
+1º Instalamos las herramientas travis en nuestra consola: 
+Nota: Debemos de tener como mínimo la versión de ruby de 1.9.3 para ello podemos hacer la instalación normal de ruby.
 
 
+```sh
+$ sudo apt-get install ruby-full
+$ sudo gem install travis
+```
+
+
+2º Ejecutamos travis que nos proporcionará en el travis.yml los parametros necesarios para enlazar travis automáticamente con Heroku.
+
+
+```sh
+$ deploy:
+  provider: heroku
+  api_key:
+    secure: gs+BySvPV......
+  app: planningtask
+  on:
+    repo: robermorji/Planning-task
+```
+![imagen_heroku](https://dl.dropboxusercontent.com/s/5w5u5cqu3i7raed/deploy_heroku.png?dl=0)
+
+3º Después de esto la aplicación debe pasar los test a través de Travis y seguidamente lo desplegará en Heroku.
+
+planning-task
+
+
+[planning-task]: <https://planningtask.herokuapp.com/>
+
+![imagen_heroku_1](https://dl.dropboxusercontent.com/s/jqbg7f9r50nslep/deploy_app.png?dl=0)
+
+Demostración de que heroku despliega el proyecto:
+
+
+![imagen_heroku_2](https://dl.dropboxusercontent.com/s/h70a29p3r7d3osa/deploy_app_2.png?dl=0)
+
+#Add-on Codeship
+El Add-on seleccionado para que Heroku pase continuamente los test cada vez que hacemos un commit es codeship, lo hemos eleguido porque es uno de los add-on que mejor van con heroku lo único malo que tiene es que debemos de utilizar una tarjeta de crédito para poder instalarlo pero es muy fácil configurarlo, con los siguientes parámetros:
+
+```sh
+vrm install 4.2.2
+npm install 
+mocha
+```
+![imagen_codeShip](https://dl.dropboxusercontent.com/s/bltj9kuifh4myug/codeship.png?dl=0)
 
 
 
