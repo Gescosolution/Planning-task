@@ -123,7 +123,7 @@ describe('Pruebas de insercion elementos', function(){
 	});
  
 });
-/*
+
 describe('Pruebas de listar elementos', function(){
     it("Listar proyectos", function(done,next){
     request(app)
@@ -146,4 +146,4 @@ describe('Pruebas de listar elementos', function(){
         .expect(200,done);
   });
   
-});*/
+});
