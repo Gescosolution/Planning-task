@@ -84,7 +84,7 @@ Si queremos pasar los test
 	
 En siguientes practicas comenzaremos a realizar la implementación a partir de los test que hemos implementado ahora.
 
-Integración Heroku
+Integración Heroku nueva.
 
 
 
