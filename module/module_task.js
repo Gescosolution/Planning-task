@@ -4,7 +4,7 @@ var assert = require('assert');
 /**
  * Conection with datebase
  */
-mongoose.connect('mongodb://localhost/my_database');
+mongoose.connect('mongodb://localhost:27017/my_database');
 var db = mongoose.connection;
 db.on('error',console.error.bind(console, 'connection error:'));	
 db.once('open', function (callback) {
