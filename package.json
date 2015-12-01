@@ -25,6 +25,7 @@
   "devDependencies": {
     "mocha": "^2.3.3",
     "mongodb": "^2.0.48",
-    "mongoose": "^4.2.4"
+    "mongoose": "^4.2.4",
+    "supertest": "^1.1.0"
   }
 }
