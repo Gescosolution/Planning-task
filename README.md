@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
-[ ![Codeship Status for robermorji/Planning-task](https://codeship.com/projects/03b7c580-7a58-0133-85ee-72bb2b768401/status?branch=master)](https://codeship.com/projects/118990)
+[ ![Codeship Status for Gescosolution/Planning-task](https://codeship.com/projects/dce545b0-7abd-0133-c294-526c8ce37475/status?branch=master)](https://codeship.com/projects/119268)
 ![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
 # Planning-task
