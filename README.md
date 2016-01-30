@@ -139,12 +139,21 @@ mocha
 ![imagen_codeShip](https://dl.dropboxusercontent.com/s/bltj9kuifh4myug/codeship.png?dl=0)
 
 #Repositorio Docker
+
+Una vez dado de alta en docker_hub y preparar nuestro repositorio quedaría más o menos de esta manera:
+
+![imagen_docker](https://dl.dropboxusercontent.com/s/mf2rb7dh5qrien4/Docker_1.png?dl=0)
+
+
 Nuestra aplicación la puedes descargar e instalar directamente a través del repositorio docker, tan solo debes ejecutar los siguientes comandos en la terminal:
 
 ```sh
 $ sudo docker pull robermorji/planning-task
 ```
-Le debe aparacer los siguiente:
+
+Le debe aparacer lo siguiente:
+
+![imagen](https://dl.dropboxusercontent.com/s/rat3gcdgvsxe4q3/Docker_2.png?dl=0)
 
 
 Para ello hemos tenido que crear en nuestro repositorio el siguiente Dockerfile, lo escribo aquí para que sirva de ayuda a otros compañeros que estén realizando proyectos con nodejs:
@@ -181,4 +190,8 @@ CMD ["node", "/src/app.js"]
 Este archivo lo debemos de definir como DockerFile.
 
 Ya solo quedaría despolegarlo en nuestro entorno y porfin tendrás la aplicación totalmente instalada y tan solo en un solo paso.
+
+Aquí mostramos como un compañero la ha realizado en su máquina y funciona correctamente, tan solo siguiendo estos fáciles pasos tendrás tú contenedor con la aplicación totalmente funiconando.
+
+![imagen_extra](https://dl.dropboxusercontent.com/s/1a6bznuazenn0lr/2016-01-30.png?dl=0)
 
