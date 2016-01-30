@@ -8,7 +8,7 @@ RUN sudo apt-get -y update
 
 #Descargar app
 RUN sudo apt-get install -y git
-RUN git clone git@github.com:robermorji/Planning-task.git
+RUN git clone git@github.com:Gescosolution/Planning-task.git
 
 
 
