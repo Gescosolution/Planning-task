@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/robermorji/Planning-task.svg?branch=master)](https://travis-ci.org/robermorji/Planning-task)
 [ ![Codeship Status for Gescosolution/Planning-task](https://codeship.com/projects/dce545b0-7abd-0133-c294-526c8ce37475/status?branch=master)](https://codeship.com/projects/119268)
 ![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
-
+![Docker](https://dl.dropboxusercontent.com/s/v55niw0mwq5glvm/dockericon_zpswj3ifwrw.PNG?dl=0)
 # Planning-task
 Submodulo software del proyecto publicado bajo la licencia de GNU GENERAL PUBLIC LICENSE Version 2 llamado Gesco para la gestión de proyectos.
 
