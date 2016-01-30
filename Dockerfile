@@ -12,6 +12,5 @@ RUN git clone https://github.com/robermorji/Planning-task
 
 
 
-#Instalar app
-RUN make install
+
 
