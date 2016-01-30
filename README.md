@@ -145,6 +145,8 @@ Una vez dado de alta en docker_hub y preparar nuestro repositorio quedaría más
 
 ![imagen_docker](https://dl.dropboxusercontent.com/s/mf2rb7dh5qrien4/Docker_1.png?dl=0)
 
+Para acceder hacer click en el siguiente enlace: **[Repositorio Docker](https://hub.docker.com/r/robermorji/planning-task/)**
+
 
 Nuestra aplicación la puedes descargar e instalar directamente a través del repositorio docker, tan solo debes ejecutar los siguientes comandos en la terminal:
 
