@@ -138,5 +138,47 @@ mocha
 ```
 ![imagen_codeShip](https://dl.dropboxusercontent.com/s/bltj9kuifh4myug/codeship.png?dl=0)
 
+#Repositorio Docker
+Nuestra aplicación la puedes descargar e instalar directamente a través del repositorio docker, tan solo debes ejecutar los siguientes comandos en la terminal:
 
+```sh
+$ sudo docker pull robermorji/planning-task
+```
+Le debe aparacer los siguiente:
+
+
+Para ello hemos tenido que crear en nuestro repositorio el siguiente Dockerfile, lo escribo aquí para que sirva de ayuda a otros compañeros que estén realizando proyectos con nodejs:
+```sh
+FROM ubuntu:latest
+
+#Autor
+MAINTAINER Roberto Morcillo Jiménez <robermorji@gmail.com>
+
+#Actualizar Sistema Base
+RUN sudo apt-get -y update
+
+#Descargar app
+RUN sudo apt-get install -y git
+RUN git clone https://github.com/robermorji/Planning-task
+
+# Enable Extra Packages for Enterprise Linux (EPEL) for Ubuntu
+RUN     sudo apt-get install -y epel-release
+# Install Node.js and npm
+RUN     sudo apt-get  install -y nodejs npm
+
+# Install app dependencies
+COPY package.json /src/package.json
+RUN cd /src; npm install
+
+# Bundle app source
+COPY . /src
+
+EXPOSE  8080
+CMD ["node", "/src/app.js"]
+
+```
+
+Este archivo lo debemos de definir como DockerFile.
+
+Ya solo quedaría despolegarlo en nuestro entorno y porfin tendrás la aplicación totalmente instalada y tan solo en un solo paso.
 
